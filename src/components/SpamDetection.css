@@ -1,0 +1,77 @@
+.spam-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000814; /* Deep black background */
+}
+
+.spam-card {
+  background: linear-gradient(145deg, #00060c, #01090f);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 255, 255, 0.76); /* Neon glow effect */
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+.spam-card h2 {
+  font-size: 26px;
+  color: #00eaff; /* Neon blue text */
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 100%;
+  background-color: #011b2baf;
+  color: #00eaff;
+  height: 120px;
+  padding: 10px;
+  border: 2px solid rgba(0, 238, 255, 0.5);
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  resize: none;
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(0, 238, 255, 0.61);
+}
+
+textarea::placeholder {
+  color: rgba(0, 238, 255, 0.6);
+}
+
+.bb {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  font-size: 18px;
+  color: #000814;
+  background: #00eaff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+  
+}
+
+.bb:hover {
+  background-color: #0088cc;
+  
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.result {
+  font-size: 25px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #00eaff;
+  
+}

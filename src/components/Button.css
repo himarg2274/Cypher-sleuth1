@@ -1,0 +1,18 @@
+/* src/components/Button.css */
+.neon-button {
+    background-color: #121212;
+    color: #0ff;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #0ff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    letter-spacing: 1px;
+  }
+  
+  .neon-button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+  }
+  

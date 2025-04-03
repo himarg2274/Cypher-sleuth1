@@ -1,0 +1,78 @@
+/* src/components/Dashboard.css */
+body{
+    background-color: rgb(9, 12, 12);
+}
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px;
+  }
+  h2{
+    color: #0ff;
+  }
+  .dashboard .card1 {
+    background-color: rgba(0, 255, 255, 0.5);
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .dashboard .card2 {
+    background-color: rgba(0, 255, 255, 0.5);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .dashboard .card3 {
+    background-color: rgba(0, 255, 255, 0.5);
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .dashboard .card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+  
+  .dashboard .card1 h3 {
+    color: #0ff; /* Neon cyan */
+    text-shadow: 0 0 10px #0ff;
+  }
+  
+  .dashboard .card1 p {
+    color: #bbb;
+  }
+  .dashboard .card2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+  
+  .dashboard .card2 h3 {
+    color: rgb(76, 84, 84); /* Neon cyan */
+    text-shadow: 0 0 10px #0ff;
+  }
+  
+  .dashboard .card2 p {
+    color: #bbb;
+  }
+  .dashboard .card3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+  
+  .dashboard .card3 h3 {
+    color: #0ff; /* Neon cyan */
+    text-shadow: 0 0 10px #0ff;
+  }
+  
+  .dashboard .card3 p {
+    color: #bbb;
+  }
+  
